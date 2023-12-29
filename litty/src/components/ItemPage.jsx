@@ -17,7 +17,7 @@ const ItemPage = () => {
             <HiAdjustmentsHorizontal size={25} />
             <p className="text-xl">Filter and sort</p>
           </div>
-          <div className="text-base">2 products</div>
+          <div className="text-base">1 product</div>
         </div>
 
         <div className="sm:flex-row sm:flex gap-5 ">
