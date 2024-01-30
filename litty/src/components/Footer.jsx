@@ -1,4 +1,3 @@
-import React from "react";
 import {
   PiSpotifyLogoLight,
   PiInstagramLogoLight,
@@ -9,7 +8,7 @@ const Footer = () => {
   return (
     <div>
       <div className="w-full bg-white flex flex-col justify-center items-center border-t border-b md:h-44">
-        <h6 className="mt-2 md:mt-5">Subscribe to PsychoYP's newsletter</h6>
+        <h6 className="mt-2 md:mt-5">Subscribe to Litty's newsletter</h6>
         <input
           type="Email"
           className="border border-grey mt-4 w-80 h-12 rounded-lg px-2 focus:outline-none mb-6"
@@ -19,7 +18,7 @@ const Footer = () => {
 
       <div className="flex flex-row justify-between items-center p-2 mx-2">
         <div>
-          <p>© 2023, PsychoYP Powered by Shopify</p>
+          <p>© 2023, Litty </p>
         </div>
 
         <div className="flex flex-row gap-5">

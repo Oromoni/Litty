@@ -10,6 +10,8 @@ const Navbar2 = () => {
   const [nav, setnav] = useState(false);
   const { getTotalCartItems } = useContext(ShopContext);
 
+  const bar = ["Home", "Catalog", "Contact"];
+
   return (
     <div
       className={
@@ -19,6 +21,7 @@ const Navbar2 = () => {
         <div className="sm:hidden">
           {nav ? (
             <AiOutlineClose
+              color="black"
               onClick={() => {
                 setnav(!nav);
               }}
@@ -26,6 +29,7 @@ const Navbar2 = () => {
             />
           ) : (
             <RxHamburgerMenu
+              color="black"
               onClick={() => {
                 setnav(!nav);
               }}
@@ -33,16 +37,20 @@ const Navbar2 = () => {
             />
           )}
         </div>
-        <img
-          className="w-20 h-20"
-          src="https://www.thesun.co.uk/wp-content/uploads/2022/10/crop-20106792.jpg?strip=all&quality=100&w=1737&h=1080&crop=1"
-          alt=""
-        />
+        <div>
+          <h1 className="text-4xl font-bold">LITTY</h1>
+        </div>
 
-        <div className="hidden sm:flex gap-10">
-          <Link to={"/"}>Home </Link>
-          <Link to={"ItemPage"}>Catalog </Link>
-          <Link to={"Contact"}>Contact </Link>
+        <div className="hidden sm:flex gap-16 text-black font-bold text-2xl">
+          <Link to={"/"} className="">
+            Home{" "}
+          </Link>
+          <Link to={"ItemPage"} className=" ">
+            Catalog{" "}
+          </Link>
+          <Link to={"Contact"} className="">
+            Contact{" "}
+          </Link>
         </div>
 
         <div>

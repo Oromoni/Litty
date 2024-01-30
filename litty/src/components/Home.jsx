@@ -1,5 +1,7 @@
 import LITTY from "../assets/PHOTOSS/LITTY 1 BF copy.jpg";
 import LITTY2 from "../assets/PHOTOSS/LITTY 3F.jpg";
+import LITTY3 from "../assets/PHOTOSS/LITTY 2F.jpg";
+import LITTY4 from "../assets/PHOTOSS/LITTY 6F.jpg";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 
 const Home = () => {
@@ -20,19 +22,18 @@ const Home = () => {
 
       <div className="flex flex-col items-center gap-7 mt-8 p-6 text-center text-[#626262] sm:text-center sm:p-6 w-full">
         <p className="sm:text-center sm:w-2/3  ">
-          Welcome to the exclusive world of PsychoYP's 'Osapa London'
-          Merchandise Collection, a captivating fusion of music, memories, and
-          personal journey. Inspired by the artist's favorite area in Lagos,
-          Osapa London, this collection is a true reflection of PsychoYP's
-          roots, growth, and artistic evolution.
+          Welcome to the exclusive world of Litty Collection, a captivating
+          fusion of music, memories, and personal journey. Inspired by the
+          artist's favorite area in Lagos, Lekki, this collection is a true
+          reflection of Litty's roots, growth, and artistic evolution.
         </p>
         <p className="sm:text-center sm:w-2/3">
           At the heart of this merchandise release lies a profound story that
-          resonates with both the artist and his fans. Osapa London holds a
-          special place in PsychoYP's heart, as it became his sanctuary in an
-          unfamiliar city, making him feel at home despite not growing up there.
-          This collection serves as a tribute to the experiences and emotions
-          tied to this vibrant locale.
+          resonates with both the artist and his fans. Lekki holds a special
+          place in Litty's heart, as it became his sanctuary in an unfamiliar
+          city, making him feel at home despite not growing up there. This
+          collection serves as a tribute to the experiences and emotions tied to
+          this vibrant locale.
         </p>
       </div>
       <div className="p-4 sm:p-12 md:p-20 ">
@@ -42,14 +43,14 @@ const Home = () => {
             <div className="mt-4">
               <figure>
                 <img
-                  src={LITTY}
+                  src={LITTY3}
                   alt=""
                   className="rounded-lg sm:max-h-[450px] lg:max-h-96"
                 />
               </figure>
               <div>
                 <h5 className="font-bold mt-2">Litty T-Shirt</h5>
-                <span className="block font-light">$99</span>
+                <span className="block font-light">$50</span>
               </div>
             </div>
           </div>
@@ -57,14 +58,14 @@ const Home = () => {
             <div className="mt-4">
               <figure>
                 <img
-                  src={LITTY}
+                  src={LITTY4}
                   alt=""
                   className="rounded-lg sm:max-h-[450px] lg:max-h-96 "
                 />
               </figure>
               <div>
                 <h5 className="font-bold mt-2">Litty T-Shirt</h5>
-                <span className="block font-light">$99</span>
+                <span className="block font-light">$50</span>
               </div>
             </div>
           </div>
@@ -80,10 +81,10 @@ const Home = () => {
         <div className="sm:hidden sm:absolute sm:top-6 right-10 h-36 bg-white  ">
           <p className="text-center p-4 my-4">
             <span className="font-semibold">A Musical Journey: </span>
-            The collection encapsulates PsychoYP's musical journey, with Osapa
-            London serving as the backdrop for the creation of his EP. It
-            represents the genesis of his rap and Afro fusion, resulting in a
-            unique and authentic Nigerian sound that fans have come to cherish.
+            The collection encapsulates litty's musical journey, with serving as
+            the backdrop for the creation of his EP. It represents the genesis
+            of his rap and Afro fusion, resulting in a unique and authentic
+            Nigerian sound that fans have come to cherish.
           </p>
         </div>
       </div>
@@ -98,13 +99,13 @@ const Home = () => {
       </div>
       <div className="flex items-center justify-center p-4">
         <p className="text-center p-4 my-4 md:w-2/3 ">
-          The PsychoYP Osapa London Merchandise Collection is a visual and
-          tangible representation of the artist's artistic journey and the power
-          of music to forge connections and unite people from diverse
-          backgrounds. It's not just merchandise; it's an emblem of belonging,
-          growth, and ambition—a piece of Osapa London's soul infused into every
-          thread. Embrace the spirit of the EP and join PsychoYP on this
-          transformative voyage through sound and style.
+          The Litty Merchandise Collection is a visual and tangible
+          representation of the artist's artistic journey and the power of music
+          to forge connections and unite people from diverse backgrounds. It's
+          not just merchandise; it's an emblem of belonging, growth, and
+          ambition—a piece of Lekki's soul infused into every thread. Embrace
+          the spirit of the EP and join Litty on this transformative voyage
+          through sound and style.
         </p>
       </div>
     </div>
