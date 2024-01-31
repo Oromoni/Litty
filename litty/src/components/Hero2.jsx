@@ -1,5 +1,7 @@
 import React from "react";
 import { HiArrowSmRight, HiArrowSmLeft } from "react-icons/hi";
+import { litty7 } from "../assets/PHOTOSS/LITTY 7F.jpg";
+import { litty8 } from "../assets/PHOTOSS/LITTY 8F.jpg";
 
 const Hero2 = () => {
   return (

@@ -2,6 +2,8 @@ import LITTY from "../assets/PHOTOSS/LITTY 1 BF copy.jpg";
 import LITTY2 from "../assets/PHOTOSS/LITTY 3F.jpg";
 import LITTY3 from "../assets/PHOTOSS/LITTY 2F.jpg";
 import LITTY4 from "../assets/PHOTOSS/LITTY 6F.jpg";
+import litty7 from "../assets/PHOTOSS/LITTY 7F.jpg";
+import litty8 from "../assets/PHOTOSS/LITTY 8F.jpg";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 
 const Home = () => {
@@ -72,12 +74,10 @@ const Home = () => {
         </div>
       </div>
       <div className=" relative sm:relative">
-        <img
-          src={LITTY}
-          alt=""
-          className="object-bottom h-96 w-full md:h-screen md:relative"
-        />
-
+        <div className="flex flex-row h-[80%]">
+          <img src={litty8} alt="" className="w-1/2 object-contain" />
+          <img src={litty7} alt="" className="w-1/2 object-contain" />
+        </div>
         <div className="sm:hidden sm:absolute sm:top-6 right-10 h-36 bg-white  ">
           <p className="text-center p-4 my-4">
             <span className="font-semibold">A Musical Journey: </span>
@@ -88,15 +88,7 @@ const Home = () => {
           </p>
         </div>
       </div>
-      <div className="border-b border-t h-12 flex flex-row items-center gap-5 justify-center mt-12">
-        <button>
-          <FaArrowLeft />
-        </button>
-        <button>0</button>
-        <button>
-          <FaArrowRight />
-        </button>
-      </div>
+
       <div className="flex items-center justify-center p-4">
         <p className="text-center p-4 my-4 md:w-2/3 ">
           The Litty Merchandise Collection is a visual and tangible
