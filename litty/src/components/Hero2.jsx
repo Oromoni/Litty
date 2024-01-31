@@ -26,7 +26,7 @@ const Hero2 = () => {
 
       <div className="p-4">
         <div>
-          <h6 className="text-2xl p-2">Featured Product</h6>
+          <h6 className="text-2xl p-2 text-[#FA8863]">Featured Product</h6>
           <div className="flex flex-row gap-2 mt-5">
             <div>
               <div>

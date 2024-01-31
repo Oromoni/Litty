@@ -10,8 +10,6 @@ const Navbar2 = () => {
   const [nav, setnav] = useState(false);
   const { getTotalCartItems } = useContext(ShopContext);
 
-  const bar = ["Home", "Catalog", "Contact"];
-
   return (
     <div
       className={
@@ -21,7 +19,7 @@ const Navbar2 = () => {
         <div className="sm:hidden">
           {nav ? (
             <AiOutlineClose
-              color="black"
+              color="orange"
               onClick={() => {
                 setnav(!nav);
               }}
@@ -29,7 +27,7 @@ const Navbar2 = () => {
             />
           ) : (
             <RxHamburgerMenu
-              color="black"
+              color="orange"
               onClick={() => {
                 setnav(!nav);
               }}
@@ -38,17 +36,17 @@ const Navbar2 = () => {
           )}
         </div>
         <div>
-          <h1 className="text-4xl font-bold">LITTY</h1>
+          <h1 className="text-4xl font-bold text-[#FA8863]">LITTY</h1>
         </div>
 
         <div className="hidden sm:flex gap-16 text-black font-bold text-2xl">
-          <Link to={"/"} className="">
+          <Link to={"/"} className="text-[#FA8863]">
             Home{" "}
           </Link>
-          <Link to={"ItemPage"} className=" ">
+          <Link to={"ItemPage"} className="text-[#FA8863] ">
             Catalog{" "}
           </Link>
-          <Link to={"Contact"} className="">
+          <Link to={"Contact"} className="text-[#FA8863]">
             Contact{" "}
           </Link>
         </div>
@@ -60,7 +58,7 @@ const Navbar2 = () => {
                 setnav(false);
               }}>
               <Link to={"Cart2"}>
-                <CiShoppingCart size={30} className="" />
+                <CiShoppingCart size={30} className="" color="orange" />
                 <h6 className="h-4 w-4 bg-black text-white rounded-full flex items-center justify-center text-xs absolute top-[48px] right-3">
                   {getTotalCartItems()}
                 </h6>
@@ -82,7 +80,9 @@ const Navbar2 = () => {
             onClick={() => {
               setnav(false);
             }}>
-            <div className="hover:font-bold cursor-pointer  ">Home</div>
+            <div className="hover:font-bold cursor-pointer text-[#FA8863]  ">
+              Home
+            </div>
           </Link>
 
           <Link
@@ -90,7 +90,9 @@ const Navbar2 = () => {
             onClick={() => {
               setnav(false);
             }}>
-            <div className="hover:font-bold cursor-pointer   ">Catalog</div>
+            <div className="hover:font-bold cursor-pointer text-[#FA8863]  ">
+              Catalog
+            </div>
           </Link>
 
           <Link
@@ -98,7 +100,9 @@ const Navbar2 = () => {
             onClick={() => {
               setnav(false);
             }}>
-            <div className="hover:font-bold cursor-pointer  ">Contact</div>
+            <div className="hover:font-bold cursor-pointer text-[#FA8863]  ">
+              Contact
+            </div>
           </Link>
         </div>
       </div>

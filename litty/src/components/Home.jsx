@@ -39,7 +39,7 @@ const Home = () => {
         </p>
       </div>
       <div className="p-4 sm:p-12 md:p-20 ">
-        <h3 className="text-left text-xl">Featured Product</h3>
+        <h3 className="text-left text-xl text-[#FA8863]">Featured Product</h3>
         <div className="flex flex-row gap-3">
           <div className="">
             <div className="mt-4">
