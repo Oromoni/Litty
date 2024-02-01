@@ -59,7 +59,7 @@ const Navbar2 = () => {
               }}>
               <Link to={"Cart2"}>
                 <CiShoppingCart size={30} className="" color="orange" />
-                <h6 className="h-4 w-4 bg-black text-white rounded-full flex items-center justify-center text-xs absolute top-[48px] right-3">
+                <h6 className="h-4 w-4 bg-white text-black rounded-full flex items-center justify-center text-xs absolute top-[48px] right-3">
                   {getTotalCartItems()}
                 </h6>
               </Link>

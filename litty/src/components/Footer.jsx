@@ -8,7 +8,9 @@ const Footer = () => {
   return (
     <div>
       <div className="w-full bg-white flex flex-col justify-center items-center border-t border-b md:h-44">
-        <h6 className="mt-2 md:mt-5">Subscribe to Litty's newsletter</h6>
+        <h6 className="mt-2 md:mt-5  text-[#FA8863]  text-2xl">
+          Subscribe to Litty's newsletter
+        </h6>
         <input
           type="Email"
           className="border border-grey mt-4 w-80 h-12 rounded-lg px-2 focus:outline-none mb-6"
